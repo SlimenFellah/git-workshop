@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './WorkshopContent.css';
-// import Blue from "../assets/Blue.png";
+import Blue from "../assets/Blue.png";
 import Orange from "../assets/Orange.png";
 import Purple from "../assets/Purple.png";
 import Green from "../assets/Green.png";
@@ -34,6 +34,7 @@ const WorkshopContent: React.FC = () => {
       <h1 className="title">Git Workshop</h1>
       <div className="content">
         <div className="branch-explanation">
+          <img src={Blue} alt="Cuboid" className="cuboid" />
           <img src={Orange} alt="Cuboid" className="cuboid" />
           <img src={Purple} alt="Cuboid" className="cuboid" />
           <img src={Green} alt="Cuboid" className="cuboid" />
