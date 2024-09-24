@@ -1,0 +1,44 @@
+.workshop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+.content {
+  background-color: white;
+  width: 80%;
+  border-radius: 4rem;
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  /* Ensure the content area expands with its content */
+  padding: 8rem;
+}
+
+.branch-explanation {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center cuboids horizontally */
+  position: relative;
+  gap: 0; /* Manage the vertical spacing between cuboids */
+}
+
+.cuboid {
+  width: 200px;
+  height: auto;
+  position: relative; /* Allows stacking with z-index */
+  margin-bottom: -120px; /* Negative margin to overlap cuboids */
+  z-index: auto; /* Ensure correct stacking order */
+}
